@@ -6,6 +6,12 @@ margin:0;
 padding:0;
 vertical-align:baseline;
 }
+@media print{
+	body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+	#ad{ display:none;}
+	#leftbar{ display:none;}
+	#contentarea{ width:100%;}
+  }
  
 a#pdf {
 	display: block;
@@ -140,6 +146,7 @@ section:last-child {
 	columns: 3; 
 	display: table;
 	table-layout: fixed;
+	column-count:3;
 	-moz-column-count:3;
 	-webkit-column-count:3;
 }
