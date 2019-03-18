@@ -22,6 +22,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     #contentarea{ 
       width:100%;
     }
+    .noprint{ display:none;}
   }
   
 .msg { padding: 10px; background: #222; position: relative; }
@@ -40,7 +41,7 @@ body { font-family: Georgia; color: #444; }
 #bd, #ft { margin-bottom: 2em; }
 
 /* //-- footer -- */
-#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft { padding: 1em 0 1em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
@@ -87,8 +88,7 @@ p.enlarge span {
  }
 .last {
    border-bottom: 0;
- }
-
+ } 
 
 /* //-- section styles -- */
 
