@@ -42,12 +42,14 @@ a#pdf:hover {
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
+	display:block;
 }
 
 html, body {background: #fff; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
-.clear {clear: both;}
+.clear {
+	clear: both;
+}
 
 p {
 	font-size: 1em;
@@ -56,9 +58,9 @@ p {
 	color: #444;
 }
 
-#cv {
-	width: 90%;
-	max-width: 800px;
+#cv {  
+    max-width: 1200px; 
+	width: 95%; 
 	background: #f3f3f3;
 	margin: 30px auto;
 }
@@ -156,9 +158,9 @@ section:last-child {
 	width: 75.5%;
 }
 
-.sectionTalent {
+.sectionTalent { 
 	float: right;
-	width: 77.5%;
+	width: 75.5%;
 	columns: 3; 
 	display: table;
 	table-layout: fixed;
