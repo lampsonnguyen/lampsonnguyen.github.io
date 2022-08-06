@@ -7,7 +7,7 @@
 :mortar_board: M.S Computer Science  
 :school: CSU Channel Islands
 
-:mortar_board: B.S Computer Engineering
+:mortar_board: B.S Computer Engineering  
 :school: CSU Fullerton 
 
 :computer: https://lampsonnguyen.github.io
